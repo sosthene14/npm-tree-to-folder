@@ -10,7 +10,7 @@ npm install -g tree-to-folders
 
 ## Video Tutorial
 
-[![Tree-to-Folders Tutorial](https://img.shields.io/badge/YouTube-Tutorial-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=example)
+[![Tree-to-Folders Tutorial](https://i.postimg.cc/52nzHSkd/thu.png)](https://youtu.be/c5pS24lQ0Qs)
 
 Watch our video tutorial for a hands-on demonstration of how to use tree-to-folders effectively.
 
