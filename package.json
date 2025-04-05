@@ -13,6 +13,14 @@
         "start": "node dist/index.js",
         "dev": "ts-node src/index.ts"
     },
+    "repository": {
+  "type": "git",
+  "url": "git+https://github.com/sosthene14/npm-tree-to-folder"
+},
+"bugs": {
+  "url": "https://github.com/sosthene14/npm-tree-to-folder/issues"
+},
+"homepage": "https://github.com/sosthene14/npm-tree-to-folder#readme",
     "keywords": [
         "tree",
         "generator",
