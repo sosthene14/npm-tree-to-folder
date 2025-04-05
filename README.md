@@ -97,19 +97,57 @@ README.md
 
 ```json
 {
-  "src": {
-    "components": {
-      "Button.js": null,
-      "Card.js": null
+  "name": "folder-name",
+  "type": "directory",
+  "children": [
+    {
+      "name": "src",
+      "type": "directory",
+      "children": [
+        {
+          "name": "index.ts",
+          "type": "file"
+        },
+        {
+          "name": "types",
+          "type": "directory",
+          "children": [
+            {
+              "name": "index.ts",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "endpoints",
+          "type": "directory",
+          "children": [
+            {
+              "name": "competitions.ts",
+              "type": "file"
+            }
+          ]
+        }
+      ]
     },
-    "pages": {
-      "Home.js": null,
-      "About.js": null
+    {
+      "name": "tests",
+      "type": "directory",
+      "children": []
     },
-    "App.js": null
-  },
-  "package.json": null,
-  "README.md": null
+    {
+      "name": ".env.example",
+      "type": "file"
+    },
+    {
+      "name": "README.md",
+      "type": "file"
+    },
+    {
+      "name": "package.json",
+      "type": "file"
+    }
+  ]
 }
 ```
 
